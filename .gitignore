@@ -1,4 +1,4 @@
-/.env
+.env
 .idea
 .DS_Store
 ###> symfony/framework-bundle ###
