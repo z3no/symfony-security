@@ -23,4 +23,9 @@
 
         <button type="submit">login</button>
     </form>
+
+{#    {% if is_granted('IS_AUTHENTICATED_FULLY') %}#}
+{#        <p>{{ app.user.email }}</p>#}
+{#    {% endif %}#}
+
 {% endblock %}
